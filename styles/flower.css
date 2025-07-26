@@ -143,3 +143,66 @@ nav{
     font-size: var(--big-font-size);
     color: var(--description-color);
 }
+
+.our-plants__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.our-plants__content {
+    text-align: center;
+}
+
+.section__title {
+    font-size: var(--bigger-font-size);
+    font-weight: var(--bold-font-weight);
+    font-family: "Noto Serif", serif;
+}
+
+.our-plants__carts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--grid-gap);
+}
+
+.our-plants__cart {
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+.our-plants__img img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.our-plants__details {
+    text-align: center;
+}
+
+.flower__name {
+    font-size: var(--big-font-size);
+    font-weight: var(--medium-font-weight);
+    line-height: 150%;
+}
+
+.flower__price {
+    font-size: var(--big-font-size);
+    font-weight: var(--bold-font-weight);
+    margin-bottom: 30px;
+}
+
+.cart__button {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--bg-color-1);
+    font-weight: var(--semibold-font-weight);
+    padding: 26px 50px;
+    border-radius: 8px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
