@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 /* Shared style */
+.hero-section,
+.our-plants,
+.about-us,
+.offer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* nav style */
 
 ul {
     list-style: none;
@@ -52,4 +62,41 @@ nav{
 
 .nav__icon {
     margin-right: 10px;
+}
+
+/* banner section */
+
+
+.hero-section {
+    margin: 120px auto;
+}
+
+.hero-section__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+}
+
+.hero-section__img img {
+    width: 570px;
+    height: 355px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 13px;
+}
+
+.hero-section__title {
+    font-family: "Noto Serif", serif;
+    font-size: var(--biggest-font-size);
+    font-weight: var(--bold-font-weight);
+}
+
+.title__span {
+    color: var(--primary-color);
+}
+
+.section__description {
+    margin-top: 13px;
+    font-size: var(--big-font-size);
+    color: var(--description-color);
 }
